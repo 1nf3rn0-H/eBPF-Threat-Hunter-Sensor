@@ -1,4 +1,4 @@
-# eBPF Threat Hunter Sensor
+# Kernel Flight Recorder
 
 An advanced eBPF-based security sensor designed to monitor and detect suspicious activities within Docker containers. This tool leverages the power of eBPF (extended Berkeley Packet Filter) to track process executions, network connections, memory operations, and other potentially malicious behaviors in real-time.
 
@@ -41,8 +41,8 @@ An advanced eBPF-based security sensor designed to monitor and detect suspicious
 
 3. **Clone or download this repository**:
    ```bash
-   git clone <repository-url>
-   cd ebpf-sensor
+   git clone https://github.com/harsh-mehta/kernel-flight-recorder
+   cd kernel-flight-recorder
    ```
 
 ## Usage
@@ -56,7 +56,7 @@ sudo python3 sensor.py -c <container_name_or_id>
 The legacy `sensor.py` wrapper delegates to the package entrypoint. You can also run:
 
 ```bash
-sudo python3 -m ebpf_threat_hunter -c <container_name_or_id>
+sudo python3 -m kernel_flight_recorder -c <container_name_or_id>
 ```
 
 ### Examples

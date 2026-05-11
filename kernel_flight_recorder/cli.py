@@ -1,4 +1,4 @@
-"""Command line entrypoint for the eBPF Threat Hunter Sensor."""
+"""Command line entrypoint for the Kernel Flight Recorder."""
 
 import argparse
 import ctypes as ct

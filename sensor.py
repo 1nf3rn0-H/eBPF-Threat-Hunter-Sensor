@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Compatibility wrapper for the packaged eBPF Threat Hunter Sensor."""
+"""Compatibility wrapper for the packaged Kernel Flight Recorder."""
 
-from ebpf_threat_hunter.cli import main
+from kernel_flight_recorder.cli import main
 
 
 if __name__ == "__main__":

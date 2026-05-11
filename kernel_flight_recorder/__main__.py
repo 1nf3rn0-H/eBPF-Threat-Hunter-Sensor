@@ -1,4 +1,4 @@
-"""Run the sensor with `python -m ebpf_threat_hunter`."""
+"""Run the sensor with `python -m kernel_flight_recorder`."""
 
 from .cli import main
 

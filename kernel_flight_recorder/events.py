@@ -146,7 +146,7 @@ def setsockopt_name(level, optname):
 def get_base_log(event_type, pid, comm):
     return {
         "timestamp": datetime.now(timezone.utc).isoformat(), 
-        "sensor_type": "ebpf_threat_hunter", 
+        "sensor_type": "kernel_flight_recorder", 
         "event_type": event_type, 
         "actor": {"pid": pid, "process_name": comm}
     }
@@ -411,4 +411,3 @@ def handle_event(ctx, data, size):
             "flags": event.flags
         }
         emit_log(log)
-

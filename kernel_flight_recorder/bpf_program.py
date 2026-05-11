@@ -1,4 +1,4 @@
-"""Embedded eBPF program for the threat hunter sensor."""
+"""Embedded eBPF program for the Kernel Flight Recorder."""
 
 BPF_TEXT = """
 #include <uapi/linux/ptrace.h>
